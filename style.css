@@ -1,0 +1,24 @@
+#fond
+{
+background-image: url("IMAGES/bleu.jpg");
+position: absolute;
+margin-top: -400px;
+margin-right: 0px;
+width: 716px;
+height: 511px;
+background-repeat: no-repeat;
+}
+ 
+#img
+{
+background-image: url("anonyme.png");
+background-position:center; 
+position: absolute;
+margin-top: -250px;
+width: 716px; 
+height: 511px; 
+}
+
+.containe{
+    position: absolute;
+    margin-top: 50px;
