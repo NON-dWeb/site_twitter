@@ -1,10 +1,9 @@
 #fond
 {
 background-image: url("IMAGES/bleu.jpg");
-position: absolute;
-margin-top: -400px;
+/* position: absolute; */
 margin-right: 0px;
-width: 716px;
+/* width: 716px; */
 height: 511px;
 background-repeat: no-repeat;
 }
@@ -14,9 +13,9 @@ background-repeat: no-repeat;
 background-image: url("anonyme.png");
 background-position:center; 
 position: absolute;
-margin-top: -250px;
 width: 716px; 
-height: 511px; 
+height: 511px;
+margin-top: -360px; 
 }
 
 .containe{
