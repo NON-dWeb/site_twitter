@@ -15,7 +15,7 @@ background-position:center;
 position: absolute;
 width: 716px; 
 height: 511px;
-margin-top: -360px; 
+margin-top: -350px; 
 }
 
 .containe{
@@ -52,4 +52,9 @@ margin-top: -360px;
 
   body{
       background-color: black;
+  }
+   
+
+  button{
+      margin: 50px;
   }
