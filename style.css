@@ -1,79 +1,83 @@
-#fond
-{
-background-image: url("IMAGES/bleu.jpg");
-/* position: absolute; */
-margin-right: 0px;
-/* width: 716px; */
-height: 511px;
-background-repeat: no-repeat;
-max-width: 100%;
-}
- 
-#img
-{
-background-image: url("anonyme.png");
-background-position:center; 
-position: absolute;
-width: 716px; 
-height: 511px;
-margin-top: -350px; 
+#fond {
+  background-image: url("IMAGES/super\ bleu.jpg");
+  margin-right: 0px;
+  height: 244px;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  background-size: cover;
+  background-position: center;
 }
 
-.containe{
-    position: absolute;
-    margin-top: 50px;
+#img {
+  position: absolute;
+  margin-top: 170px;
+  margin-left: 20px;
+}
+
+#texte {
+  color: white;
+}
+
+.containe {
+  position: absolute;
+  margin-top: 50px;
 }
 
 .vertical-nav {
-    text-align: center;
-    position: fixed;
-    top: 160px;
-    left: 0;
-    width: 200px;
-    height: 100%;
-    /* background-color: #f8f8f8; */
-    overflow-y: auto;
-    padding-top: 30px
-  }
-
-  .navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-
-  #right {
-      position: fixed;
-      right: 0;
-  }
-
-  #main {
-      margin-top: 120px;
-  }
-
-  body{
-      background-color: black;
-  }
-   
-button{
-    font-size: 10px;
-                    position:relative  ;
-                    bottom: 0px;
-                 left: 495px;
-                    height: 40px;
-                    width: 100px;
+  text-align: center;
+  position: fixed;
+  top: 160px;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  /* background-color: #f8f8f8; */
+  overflow-y: auto;
+  padding-top: 30px;
 }
 
-#message{
-    
-   width: 40px;
-     height:40px;
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
-#texte{
-    color: white;
+#right {
+  position: fixed;
+  right: 0;
 }
 
-.tcheck{
-    color: rgb(7, 231, 231);
+#main {
+  margin-top: 120px;
+}
+
+body {
+  background-color: black;
+}
+
+button {
+  font-size: 10px;
+  position: relative;
+  bottom: 0px;
+  left: 495px;
+  height: 40px;
+  width: 100px;
+}
+
+#message {
+  width: 40px;
+  height: 40px;
+}
+
+.tcheck {
+  color: rgb(7, 231, 231);
+}
+.mystere {
+  color: rgba(0, 128, 128, 0.658);
+}
+
+#bio {
+  margin: 3%;
+}
+.bi {
+  font-size: 12px;
 }
