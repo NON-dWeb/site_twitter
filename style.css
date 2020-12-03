@@ -54,3 +54,11 @@ height: 511px;
   body{
       background-color: black;
   }
+
+  #commentaires {
+      color: white;
+  }
+
+  .comment-icons {
+      display: flex;justify-content: space-around;
+  }
