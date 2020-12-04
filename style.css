@@ -85,3 +85,13 @@ button{
 .tcheck{
     color: rgb(7, 231, 231);
 }
+.comment-count {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.commentaire {
+    padding: 20px;
+}
