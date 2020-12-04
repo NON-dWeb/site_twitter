@@ -14,8 +14,12 @@
   margin-left: 20px;
 }
 
-#texte {
+.texte {
   color: white;
+}
+
+#texte p {
+  margin: 0;
 }
 
 .containe {
@@ -100,3 +104,16 @@ button{
 }
 .bi {
   font-size: 12px;}
+
+.info {
+  margin-right: 30px;
+}
+
+.color{
+  color: aqua;
+}
+
+
+#pp{
+font-size: 12px;
+}
