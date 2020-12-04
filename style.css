@@ -1,56 +1,70 @@
-#fond
-{
-background-image: url("IMAGES/bleu.jpg");
-/* position: absolute; */
-margin-right: 0px;
-/* width: 716px; */
-height: 511px;
-background-repeat: no-repeat;
-max-width: 100%;
-}
- 
-#img
-{
-background-image: url("anonyme.png");
-background-position:center; 
-position: absolute;
-width: 716px; 
-height: 511px;
-margin-top: -350px; 
+#fond {
+  background-image: url("IMAGES/super\ bleu.jpg");
+  margin-right: 0px;
+  height: 244px;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  background-size: cover;
+  background-position: center;
 }
 
-.containe{
-    position: absolute;
-    margin-top: 50px;
+#img {
+  position: absolute;
+  margin-top: 170px;
+  margin-left: 20px;
+}
+
+.texte {
+  color: white;
+}
+
+#texte p {
+  margin: 0;
+}
+
+.containe {
+  position: absolute;
+  margin-top: 50px;
 }
 
 .vertical-nav {
-    text-align: center;
-    position: fixed;
-    top: 160px;
-    left: 0;
-    width: 200px;
-    height: 100%;
-    /* background-color: #f8f8f8; */
-    overflow-y: auto;
-    padding-top: 30px
-  }
+  text-align: center;
+  position: fixed;
+  top: 160px;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  overflow-y: auto;
+  padding-top: 30px;
+}
 
-  .navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
-  #right {
-      position: fixed;
-      right: 0;
-  }
+#right {
+  position: fixed;
+  right: 0;
+}
 
-  #main {
-      margin-top: 120px;
-  }
+#main {
+  margin-top: 120px;
+}
 
+body {
+  background-color: black;
+}
+
+button {
+  font-size: 10px;
+  position: relative;
+  bottom: 0px;
+  left: 495px;
+  height: 40px;
+  width: 100px;
+}
   body{
       background-color: black;
   }
@@ -72,18 +86,20 @@ button{
                     width: 100px;
 }
 
-#message{
-    
-   width: 40px;
-     height:40px;
+#message {
+  width: 40px;
+  height: 40px;
 }
 
-#texte{
-    color: white;
+.tcheck {
+  color: rgb(7, 231, 231);
+}
+.mystere {
+  color: rgba(0, 128, 128, 0.658);
 }
 
-.tcheck{
-    color: rgb(7, 231, 231);
+#bio {
+  margin: 3%;
 }
 .comment-count {
     padding-top: 40px;
@@ -94,4 +110,20 @@ button{
 }
 .commentaire {
     padding: 20px;
+}
+
+.bi {
+  font-size: 12px;}
+
+.info {
+  margin-right: 30px;
+}
+
+.color{
+  color: aqua;
+}
+
+
+#pp{
+font-size: 12px;
 }
